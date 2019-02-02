@@ -1,0 +1,146 @@
+html, body {
+    height: 100%;
+    min-width: 1280px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+}
+
+body h3 {
+    color: white;
+}
+
+.cover-container {
+    height: 94px;
+    margin: auto;
+}
+
+.name-container{
+	height: 0px;
+	color: white;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    display:block;
+    z-index:0;
+	
+}
+
+#particles-js {
+  position: absolute;
+  width: 1980px;
+  height:1000;
+  background-color: #080625;
+  background-image: url("");
+  background-size: cover;
+  background-position: % 50%;
+  z-index:-1;
+}
+
+#self {
+    width: 180px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 100%;
+    position: relative;
+   	z-index:1;
+   	left:9;
+   	top:9;
+}
+
+#social-media-section .row {
+	
+    margin: auto;
+    max-width: 20px;
+    margin-left: -330px;
+}
+
+#social-media-section .col {
+	
+    text-align: left;
+    margin-top: 130px;
+}
+
+#social-media-section img {
+	
+	text-align: left;
+    border: none;
+    width: 30px;
+    height: 50px;
+    transition: width 0.6s;
+}
+
+#social-media-section img:hover {
+    transition: width 0.6s;
+    width: 50px;
+}
+
+#about-section {
+	position: relative;
+	color: white;
+    text-align: center;
+    top: -120;
+    z-index:-1;
+}
+
+
+
+#navigation-section{
+	position: relative;
+	color:white;
+	text-align: left;
+	left: -350;
+	top:-300;
+}
+
+
+
+.col-navi:hover{
+	width: 100px;
+    text-align: center;
+    transition: width 0.6s;
+}
+
+#skills-container h3{
+	text-align: center;
+    position: relative;
+    color: white;
+}
+ #skills-container h5{
+ 	text-align: center;
+    position: relative;
+    color: white;
+ }
+
+.col-sm {
+	color: white;
+    width: 30%;
+    padding: 10px;
+}
+
+.col-sm h6 {
+	text-align: left;
+    position: relative;
+    left: -30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-left: 120px;
+}
+
+.col-sm-1 img {
+	text-align: left;
+    padding: 2px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
