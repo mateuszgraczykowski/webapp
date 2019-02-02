@@ -96,9 +96,12 @@ body h3 {
 
 
 #navigation-section{
+	width: 100px;
 	position: relative;
 	color:white;
 	text-align: left;
+	top: -30%;
+	left: 3%;
 }
 
 
