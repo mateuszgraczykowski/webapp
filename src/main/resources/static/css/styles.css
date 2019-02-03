@@ -1,63 +1,29 @@
-html, body {
-    height: 100%;
-    min-width: 1280px;
-}
-
 html {
-    display: table;
+    height: 100%;
     margin: auto;
 }
 
 body {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    display: table-cell;
-    
-}
-
-body h3 {
-    color: white;
-}
-
-.cover-container {
-    height: 94px;
-    margin: auto;
-}
-
-.name-container{
-	
-	height: 0px;
-	color: white;
-    width: 100%;
-    text-align: center;
-    position: relative;
-    top: 90px;
-    display:block;
-    z-index:0;
-	
-}
-
-#particles-js {
-  position: absolute;
-  width: 1980px;
-  height:1000;
-  background-color: #080625;
-  background-image: url("");
+  background-image: url("/gx/background.jpg");
+  background-repeat: no-repeat;
+  background-color: #c0c0c0;
+  background-position: center;
   background-size: cover;
-  background-position: % 50%;
-  z-index:-1;
+  background-attachment: fixed;
+  
 }
 
-#self {
-    width: 180px;
-    text-align: center;
-    border: 5px solid white;
-    border-radius: 100%;
-    position: relative;
-   	z-index:1;
-   	left:9;
-   	top:9;
+.welcome-container{
+	color: white;
+	font-family:serif;
+	text-align: center;
+	position: absolute;
+	top:30%;
+	left:22%;
+}
+
+.id{
+	
 }
 
 #social-media-section .row {
