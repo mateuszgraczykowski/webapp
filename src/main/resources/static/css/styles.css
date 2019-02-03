@@ -15,14 +15,33 @@ body {
 
 .welcome-container{
 	color: white;
-	font-family:serif;
+	font-family:Charm, Bilbo Swash Caps, serif;
 	text-align: center;
 	position: absolute;
 	top:30%;
-	left:22%;
+	left:33%;
 }
 
-.id{
+.welcome-container::after {
+	content: " ";
+	height: 2px;
+	margin: 0 10px;
+	position: absolute;
+	top: 1.2vw;
+	left: 62%;
+	width: 5vw;
+	border-bottom: 0.2vw solid white;
+	
+}
+
+.welcome-container::before{
+	content: " ";
+	margin: 0 10px;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	width: 5vw;
+	border-bottom: 0.2vw solid white;
 	
 }
 
