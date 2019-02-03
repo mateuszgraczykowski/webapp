@@ -18,17 +18,16 @@ body {
 	font-family:Charm, Bilbo Swash Caps, serif;
 	text-align: center;
 	position: absolute;
-	top:30%;
-	left:33%;
+	top:18vw;
+	left:35%;
 }
 
 .welcome-container::after {
 	content: " ";
-	height: 2px;
-	margin: 0 10px;
+	margin: 0 0vw;
 	position: absolute;
 	top: 1.2vw;
-	left: 62%;
+	left: 21.2vw;
 	width: 5vw;
 	border-bottom: 0.2vw solid white;
 	
@@ -36,40 +35,42 @@ body {
 
 .welcome-container::before{
 	content: " ";
-	margin: 0 10px;
+	margin: 0 0vw;
 	position: absolute;
-	top: 10%;
-	left: 20%;
+	top: 1.2vw;
+	left: 7.1vw;
 	width: 5vw;
 	border-bottom: 0.2vw solid white;
 	
 }
 
-#social-media-section .row {
-	
-    margin: auto;
-    max-width: 20px;
-    margin-left: -330px;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
 }
 
-#social-media-section .col {
-	display: block;
-    text-align: left;
-    margin-top: 130px;
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-#social-media-section img {
-	display: block;
-	text-align: left;
-    border: none;
-    width: 30px;
-    height: 50px;
-    transition: width 0.6s;
-}
+ul.topnav li a:hover:not(.active) {background-color: #ff0000;}
 
-#social-media-section img:hover {
-    transition: width 0.6s;
-    width: 50px;
+ul.topnav li a.active {background-color: #80838c;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
 
 #about-section {
@@ -82,56 +83,3 @@ body {
 
 
 
-#navigation-section{
-	width: 100px;
-	position: relative;
-	color:white;
-	text-align: left;
-	top: -30%;
-	left: 3%;
-}
-
-
-
-.col-navi:hover{
-	width: 100px;
-    text-align: center;
-    transition: width 0.6s;
-    top:200;
-}
-
-#skills-container h3{
-	text-align: center;
-    position: relative;
-    color: white;
-}
- #skills-container h5{
- 	text-align: center;
-    position: relative;
-    color: white;
- }
-
-.col-sm {
-	color: white;
-    width: 30%;
-    padding: 10px;
-}
-
-.col-sm h6 {
-	text-align: left;
-    position: relative;
-    left: -30px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    margin-left: 120px;
-}
-
-.col-sm-1 img {
-	max-width: 62%;
-  	min-width: 62%;
-	text-align: left;
-    padding: 2px;
-    width: 40px;
-    margin-top: 15px;
-    margin-left: 120px;
-}
